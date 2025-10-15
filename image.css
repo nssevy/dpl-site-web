@@ -1,0 +1,31 @@
+/* Images fluides */
+.img-fluid {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Conteneur hero : évite les déformations et garde le recadrage propre */
+  .hero-wrap {
+    position: relative;
+    margin-bottom: 50px;
+    overflow: hidden;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Optionnel : si tu veux un ratio constant pour le hero (ex. 16/9) */
+  .hero-ratio {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  
+  /* Légende/bandeau W3: laisse W3 gérer, juste une petite opacité si besoin */
+  .hero-badge {
+    opacity: 0.7;
+  }
+  
